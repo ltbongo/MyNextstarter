@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
+  "plugins": ["n"],
+  "rules": {
+    "prefer-arrow-callback": "error",
+    "prefer-template": "error",
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
+    
+  }
+}
